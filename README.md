@@ -1,1 +1,1 @@
-"# cdn.itoncek.cf" 
+# cdn.itoncek.cf
