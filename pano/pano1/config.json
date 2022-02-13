@@ -1,0 +1,26 @@
+{
+    "hfov": 100.0,
+    "haov": 60.97,
+    "minYaw": -30.485,
+    "yaw": 19.515,
+    "maxYaw": 30.485,
+    "vaov": 17.62,
+    "autoLoad": true,
+    "vOffset": 0.0,
+    "minPitch": -8.81,
+    "pitch": 0.0,
+    "maxHfov": 60,
+    "maxPitch": 8.81,
+    "type": "multires",
+    "title": "50.7789536N, 15.1104411E",
+    "author": "GeoSolve",
+    "authorURL": "https://geosolve.cz",
+    "multiRes": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "png",
+        "tileResolution": 512,
+        "maxLevel": 8,
+        "cubeResolution": 34504
+    }
+}
