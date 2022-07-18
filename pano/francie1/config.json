@@ -1,0 +1,22 @@
+{
+    "hfov": 100.0,
+    "haov": 36.08,
+    "minYaw": -18.04,
+       "yaw": 31.96,
+    "maxYaw": 18.04,
+    "vaov": 48.11,
+    "vOffset": 0.0,
+    "minPitch": -24.055,
+       "pitch": 0.0,
+    "maxPitch": 24.055,
+    "autoLoad": true,
+    "type": "multires",
+    "multiRes": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "png",
+        "tileResolution": 512,
+        "maxLevel": 7,
+        "cubeResolution": 27400
+    }
+}
