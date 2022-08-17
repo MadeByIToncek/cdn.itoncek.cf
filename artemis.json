@@ -1,0 +1,1045 @@
+{
+    "t0": "2022-08-29T15:33:00.000Z",
+    "steps": [{
+            "desc": "Launch teams arrive",
+            "start": {
+                "minus": true,
+                "h": 46,
+                "m": 40,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 46,
+                "m": 40,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Water tank filling",
+            "start": {
+                "minus": true,
+                "h": 46,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 41,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "LO2/LH2 System preparations for loading",
+            "start": {
+                "minus": true,
+                "h": 46,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 37,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Orion startup",
+            "start": {
+                "minus": true,
+                "h": 42,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 41,
+                "m": 30,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Interim cryo stage startup",
+            "start": {
+                "minus": true,
+                "h": 38,
+                "m": 30,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 35,
+                "m": 30,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage startup",
+            "start": {
+                "minus": true,
+                "h": 34,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 33,
+                "m": 20,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "RS-25 final preps",
+            "start": {
+                "minus": true,
+                "h": 36,
+                "m": 20,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 31,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core COPVs Pressurization to flight pressure",
+            "start": {
+                "minus": true,
+                "h": 31,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 22,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Orion flight batteries charge to 100%",
+            "start": {
+                "minus": true,
+                "h": 30,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 26,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core batteries charge to 100%",
+            "start": {
+                "minus": true,
+                "h": 27,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 21,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Interim cryo stage powerup for launch",
+            "start": {
+                "minus": true,
+                "h": 18,
+                "m": 30,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 15,
+                "m": 30,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Evacuation of the pad 39B",
+            "start": {
+                "minus": true,
+                "h": 12,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 10,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Ground Launch Sequencer (GLS) activation",
+            "start": {
+                "minus": true,
+                "h": 11,
+                "m": 15,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 9,
+                "m": 15,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Air to Nitrogen changeover for vehicle cavity inerting.",
+            "start": {
+                "minus": true,
+                "h": 10,
+                "m": 45,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": false,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Countdown hold",
+            "hold": true,
+            "start": {
+                "minus": true,
+                "h": 9,
+                "m": 40,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 7,
+                "m": 10,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Weather and Tanking briefing",
+            "start": {
+                "minus": true,
+                "h": 9,
+                "m": 40,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 8,
+                "m": 50,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Tanking GO/NO-GO",
+            "poll": true,
+            "start": {
+                "minus": true,
+                "h": 8,
+                "m": 40,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 8,
+                "m": 40,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LO2 line chilldown",
+            "start": {
+                "minus": true,
+                "h": 8,
+                "m": 15,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 8,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LO2 MPS chilldown",
+            "start": {
+                "minus": true,
+                "h": 8,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 7,
+                "m": 20,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LO2 slow fill",
+            "start": {
+                "minus": true,
+                "h": 7,
+                "m": 20,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 7,
+                "m": 5,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LO2 fast fill",
+            "start": {
+                "minus": true,
+                "h": 7,
+                "m": 5,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 4,
+                "m": 15,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LH2 chilldown",
+            "start": {
+                "minus": true,
+                "h": 7,
+                "m": 15,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 7,
+                "m": 5,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LH2 slow fill",
+            "start": {
+                "minus": true,
+                "h": 7,
+                "m": 5,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 6,
+                "m": 15,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LH2 fast fill",
+            "start": {
+                "minus": true,
+                "h": 6,
+                "m": 15,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 5,
+                "m": 5,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LH2 topping",
+            "start": {
+                "minus": true,
+                "h": 5,
+                "m": 5,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 5,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LH2 replenish",
+            "start": {
+                "minus": true,
+                "h": 5,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": false,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS LH2 chilldown",
+            "start": {
+                "minus": true,
+                "h": 4,
+                "m": 45,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 4,
+                "m": 30,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS LH2 fast fill start",
+            "start": {
+                "minus": true,
+                "h": 4,
+                "m": 30,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 3,
+                "m": 30,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Orion comms activated",
+            "start": {
+                "minus": true,
+                "h": 4,
+                "m": 20,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 3,
+                "m": 45,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LO2 topping",
+            "start": {
+                "minus": true,
+                "h": 4,
+                "m": 15,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 3,
+                "m": 55,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LO2 replenish",
+            "start": {
+                "minus": true,
+                "h": 3,
+                "m": 55,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": false,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS LO2 MPS chilldown",
+            "start": {
+                "minus": true,
+                "h": 3,
+                "m": 55,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 3,
+                "m": 45,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS LO2 fast fill",
+            "start": {
+                "minus": true,
+                "h": 3,
+                "m": 45,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 2,
+                "m": 55,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS LH2 validation and leak test",
+            "start": {
+                "minus": true,
+                "h": 3,
+                "m": 30,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 3,
+                "m": 15,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS LH2 topping",
+            "start": {
+                "minus": true,
+                "h": 3,
+                "m": 15,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 2,
+                "m": 55,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS/SLS telemetry verification",
+            "start": {
+                "minus": true,
+                "h": 2,
+                "m": 55,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 2,
+                "m": 45,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS LO2 validation and leak test",
+            "start": {
+                "minus": true,
+                "h": 2,
+                "m": 55,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 2,
+                "m": 30,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS LH2 replenish",
+            "start": {
+                "minus": true,
+                "h": 2,
+                "m": 50,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": false,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS LO2 topping",
+            "start": {
+                "minus": true,
+                "h": 2,
+                "m": 30,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 2,
+                "m": 10,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS LO2 replenish",
+            "start": {
+                "minus": true,
+                "h": 2,
+                "m": 10,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": false,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Final NASA Test Director briefing",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 50,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 50,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "30 minute countdown hold",
+            "hold": true,
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 40,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 40,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Launch GO/NO-GO",
+            "poll": true,
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 15,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 15,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Ground Launch Sequencer (GLS) terminal count",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 10,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 10,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Orion ascent pyros are armed",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 6,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 6,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Orion set to internal power",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 6,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 6,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LH2 replenish termination",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 5,
+                "s": 57,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 5,
+                "s": 57,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core AUX power unit starts",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 4,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 4,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage LO2 replenish termination",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 3,
+                "s": 30,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 3,
+                "s": 30,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS switch to internal power",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 1,
+                "s": 56,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 1,
+                "s": 56,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core switch to internal power",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 1,
+                "s": 30,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 1,
+                "s": 30,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS terminal countdown mode",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 1,
+                "s": 20,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 1,
+                "s": 20,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "ICPS LH2 replenish termination",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 0,
+                "s": 50,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 0,
+                "s": 50,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "\"Go for automated launch sequencer\"",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 0,
+                "s": 33,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 0,
+                "s": 33,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Core stage switch to automated launch sequencer",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 0,
+                "s": 30,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 0,
+                "s": 30,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Hydrogen burn off igniters (ROFIs) iginters initated",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 0,
+                "s": 12,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 0,
+                "s": 12,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Engine start command",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 0,
+                "s": 10,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 0,
+                "s": 10,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "RS-25 engine startup",
+            "start": {
+                "minus": true,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 6.36
+            },
+            "end": {
+                "minus": true,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 6.36
+            }
+        },
+        {
+            "desc": "Booster ignition",
+            "start": {
+                "minus": false,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": false,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Umbilical separation",
+            "start": {
+                "minus": false,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": false,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        },
+        {
+            "desc": "Liftoff",
+            "start": {
+                "minus": false,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            },
+            "end": {
+                "minus": false,
+                "h": 0,
+                "m": 0,
+                "s": 0,
+                "fr": 0.00
+            }
+        }
+    ]
+}
