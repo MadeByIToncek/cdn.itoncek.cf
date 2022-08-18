@@ -1,5 +1,12 @@
 {
-    "t0": "2022-08-29T15:33:00.000Z",
+    "t0": {
+        "year": 2022,
+        "month": 8,
+        "day": 29,
+        "hour": 15,
+        "minute": 33,
+        "second": 0
+    },
     "steps": [{
             "start": {
                 "minus": true,
