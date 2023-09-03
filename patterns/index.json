@@ -1,0 +1,180 @@
+{
+    "materials": [
+        {
+            "materials": [
+                "CRAFTING_TABLE",
+                "BOOKSHELF",
+                "ENCHANTING_TABLE"
+            ],
+            "id": 1
+        },
+        {
+            "materials": [
+                "SMOOTH_BASALT",
+                "CALCITE",
+                "AMETHYST_BLOCK"
+            ],
+            "id": 2
+        },
+        {
+            "materials": [
+                "LAPIS_BLOCK",
+                "IRON_BLOCK",
+                "COAL_BLOCK",
+                "REDSTONE_BLOCK",
+                "NETHERITE_BLOCK",
+                "EMERALD_BLOCK",
+                "GOLD_BLOCK",
+                "DIAMOND_BLOCK"
+            ],
+            "id": 3
+        },
+        {
+            "materials": [
+                "CYAN_CONCRETE",
+                "GREEN_CONCRETE",
+                "GREEN_CONCRETE_POWDER",
+                "BROWN_CONCRETE",
+                "BROWN_CONCRETE_POWDER"
+            ],
+            "id": 4
+        },
+        {
+            "materials": [
+                "LIGHT_GRAY_CONCRETE",
+                "BLACK_CONCRETE",
+                "BLACK_CONCRETE_POWDER",
+                "WHITE_CONCRETE"
+            ],
+            "id": 5
+        },
+        {
+            "materials": [
+                "YELLOW_CONCRETE",
+                "WHITE_CONCRETE",
+                "BLACK_CONCRETE"
+            ],
+            "id": 6
+        },
+        {
+            "materials": [
+                "LIME_CONCRETE",
+                "BLACK_CONCRETE",
+                "GREEN_CONCRETE",
+                "BROWN_CONCRETE",
+                "WHITE_CONCRETE"
+            ],
+            "id": 7
+        },
+        {
+            "materials": [
+                "GRAY_CONCRETE",
+                "ORANGE_GLAZED_TERRACOTTA",
+                "BLACK_CONCRETE"
+            ],
+            "id": 8
+        },
+        {
+            "materials": [
+                "YELLOW_CONCRETE",
+                "WHITE_CONCRETE",
+                "BLACK_CONCRETE"
+            ],
+            "id": 9
+        },
+        {
+            "materials": [
+                "SPRUCE_PLANKS",
+                "LIGHT_GRAY_CONCRETE_POWDER"
+            ],
+            "id": 10
+        },
+        {
+            "materials": [
+                "YELLOW_CONCRETE_POWDER",
+                "BLACK_CONCRETE",
+                "ORANGE_CONCRETE",
+                "YELLOW_CONCRETE"
+            ],
+            "id": 11
+        },
+        {
+            "materials": [
+                "YELLOW_CONCRETE_POWDER",
+                "LIME_CONCRETE",
+                "YELLOW_CONCRETE",
+                "ORANGE_CONCRETE"
+            ],
+            "id": 12
+        },
+        {
+            "materials": [
+                "MAGENTA_CONCRETE",
+                "ORANGE_GLAZED_TERRACOTTA",
+                "PINK_CONCRETE_POWDER",
+                "BLACK_CONCRETE_POWDER"
+            ],
+            "id": 13
+        },
+        {
+            "materials": [
+                "GOLD_BLOCK",
+                "DIAMOND_BLOCK"
+            ],
+            "id": 14
+        },
+        {
+            "materials": [
+                "ORANGE_GLAZED_TERRACOTTA",
+                "GOLD_BLOCK",
+                "DIAMOND_BLOCK",
+                "REDSTONE_BLOCK",
+                "EMERALD_BLOCK"
+            ],
+            "id": 15
+        },
+        {
+            "materials": [
+                "WHITE_CONCRETE_POWDER",
+                "BLUE_CONCRETE_POWDER",
+                "RED_CONCRETE_POWDER"
+            ],
+            "id": 16
+        },
+        {
+            "materials": [
+                "BLACK_CONCRETE",
+                "ORANGE_GLAZED_TERRACOTTA",
+                "WHITE_CONCRETE",
+                "BIRCH_PLANKS"
+            ],
+            "id": 17
+        },
+        {
+            "materials": [
+                "DEEPSLATE_BRICKS",
+                "BLACK_CONCRETE",
+                "CYAN_CONCRETE_POWDER"
+            ],
+            "id": 18
+        },
+        {
+            "materials": [
+                "RED_CONCRETE",
+                "WHITE_CONCRETE",
+                "COAL_BLOCK"
+            ],
+            "id": 19
+        },
+        {
+            "materials": [
+                "RED_CONCRETE_POWDER",
+                "GREEN_CONCRETE_POWDER",
+                "RED_CONCRETE",
+                "GREEN_CONCRETE"
+            ],
+            "id": 20
+        }
+    ],
+    "maxFile": 20
+}
