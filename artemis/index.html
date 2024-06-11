@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta's -->
+    <title>Artemis I liftoff comparison</title>
+    <meta charset="utf-8">
+    <meta name="author" content="IToncek">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+    <!-- Styles -->
+    <style>
+        html {
+            height: 100%;
+            width: 100%;
+            background-color: #000;
+        }
+        
+        .container {
+            /* Image one area*/
+            position: relative;
+            width: 1920px;
+            height: 1080px;
+            margin: 0px;
+            background-color: #000000;
+            background-repeat: no-repeat;
+            border: 1px solid #000;
+        }
+        
+        .slideContainer {
+            /* Image two area */
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+            width: 50%;
+            height: 200%;
+            overflow: hidden;
+        }
+        /* Range with circle (controller) */
+        
+        .slideCircle {
+            position: absolute;
+            -webkit-appearance: none;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            background-color: transparent;
+            z-index: 16;
+        }
+        
+        .slideCircle:focus {
+            outline: none;
+        }
+        
+        .slideCircle::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 22px;
+            height: 22px;
+            background: #E42323;
+            border-radius: 50%;
+            cursor: e-resize;
+            box-shadow: 2px 0 2px #000, -2px 0 2px #000;
+        }
+        
+        .slideCircle::-moz-range-thumb {
+            width: 22px;
+            height: 22px;
+            background: #E42323;
+            border-radius: 50%;
+            cursor: e-resize;
+        }
+        /* Range in bg, vertical line */
+        
+        .slider {
+            position: absolute;
+            -webkit-appearance: none;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            background-color: transparent;
+            z-index: 15;
+            overflow: hidden;
+        }
+        
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 2px;
+            height: 1080px;
+            background: red;
+            cursor: e-resize;
+        }
+        
+        .slider::-moz-range-thumb {
+            width: 2px;
+            height: 1080px;
+            background: red;
+            cursor: e-resize;
+        }
+        /* Both images */
+        
+        .splitImg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin: 0;
+            width: 0;
+            height: 0;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<!-- Body content -->
+
+<body>
+    <div class="container" id="container">
+        <input type="range" class="slider" id="slider" min="0" max="100" value="50">
+        <input type="range" class="slideCircle" id="slideCircle" min="0" max="100" value="50">
+        <img class="splitImg" id="firstImage">
+        <div class="slideContainer" id="slideContainer">
+            <img class="splitImg" id="secondImage">
+        </div>
+        <br>
+        CREDIT: EVERYDAYASTRONAUT
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            var BgSlider = document.getElementById("slider");
+            var slider = document.getElementById("slideCircle");
+            var firstContainer = document.getElementById("container");
+            var secondContainer = document.getElementById("slideContainer");
+            var firstImage = document.getElementById("firstImage");
+            var secondImage = document.getElementById("secondImage");
+
+            // Update the current slider value (each time you drag the slider handle)
+            slider.oninput = function() {
+                secondContainer.style.width = this.value + "%";
+                BgSlider.value = this.value;
+            }
+
+            firstImage.src = "two.png";
+            secondImage.src = "one.png";
+
+            firstImage.addEventListener("load", () => {
+                if (firstImage.naturalHeight > firstContainer.clientHeight) {
+                    firstImage.style.height = firstContainer.clientHeight + "px";
+                    if (firstImage.naturalWidth > firstContainer.clientWidth) {
+                        firstImage.style.width = firstContainer.clientWidth + "px";
+                    } else {
+                        firstImage.style.width = firstImage.naturalWidth + "px";
+                    }
+                } else {
+                    firstImage.style.height = firstImage.naturalHeight + "px";
+                    firstContainer.style.height = firstImage.naturalHeight + "px";
+                    if (firstImage.naturalWidth > firstContainer.clientWidth) {
+                        firstImage.style.width = firstContainer.clientWidth + "px";
+                    } else {
+                        firstImage.style.width = firstImage.naturalWidth + "px";
+                        firstContainer.style.width = firstImage.naturalWidth + "px";
+                    }
+                }
+
+                secondImage.style.height = firstImage.height + "px";
+                secondImage.style.width = firstImage.width + "px";
+
+            });
+        });
+    </script>
+
+</body>
+
+</html>
