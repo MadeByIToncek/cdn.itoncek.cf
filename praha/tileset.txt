@@ -1,0 +1,2 @@
+# TileSet Manifest
+guid=c340d132-33ab-43dd-9c0b-1099f17bcd6f
